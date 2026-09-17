@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
 <title>米子ハーミー歯科 SNSリンク集</title>
-<meta name="description" content="米子ハーミー歯科の公式SNS（YouTube・Instagram・X・note）のリンク集です。">
+<meta name="description" content="米子ハーミー歯科の公式SNS（YouTube・Instagram・X・note）のリンク集です。歯に関する情報を発信しています。">
 <style>
   :root{
     --pink:#ED9FB6; --pink-soft:#F7CCD9;
@@ -48,7 +48,7 @@
 
   .body{flex:1;min-width:0;display:block}
   .name{display:block;font-size:20px;font-weight:700;letter-spacing:.02em}
-  .desc{display:block;font-size:13.5px;color:var(--muted);margin-top:3px}
+  .desc{display:block;font-size:13.5px;color:var(--muted);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .chev{font-size:26px;color:#CBC6BE;flex:0 0 auto;line-height:1}
 
   .card.soon{opacity:.62;pointer-events:none}
@@ -67,6 +67,13 @@
   }
   .foot a .chev{color:var(--ink);opacity:.45}
   .foot p{margin-top:16px;font-size:12.5px;color:var(--muted)}
+  @media (max-width:359px){
+    body{padding-left:14px;padding-right:14px}
+    .card{gap:12px;padding:16px 12px 16px 14px}
+    .thumb{width:60px;height:60px;flex-basis:60px}
+    .name{font-size:18px}
+    .desc{font-size:12px}
+  }
 </style>
 </head>
 <body>
@@ -81,7 +88,7 @@
     <span class="thumb"><img src="assets/youtube.png" alt=""></span>
     <span class="body">
       <span class="name">YouTube</span>
-      <span class="desc">歯のこと・院のことを動画でお届け</span>
+      <span class="desc">歯のことを動画で解説</span>
     </span>
     <span class="chev">›</span>
   </a>
@@ -90,7 +97,7 @@
     <span class="thumb"><img src="assets/instagram.png" alt=""></span>
     <span class="body">
       <span class="name">Instagram</span>
-      <span class="desc">院の日常やお知らせを写真で</span>
+      <span class="desc">歯の豆知識を写真で</span>
     </span>
     <span class="chev">›</span>
   </a>
@@ -99,7 +106,7 @@
     <span class="thumb"><img src="assets/x.png" alt=""></span>
     <span class="body">
       <span class="name">X（旧Twitter）</span>
-      <span class="desc">日々のお知らせをひとことで</span>
+      <span class="desc">歯のワンポイント情報</span>
     </span>
     <span class="chev">›</span>
   </a>
@@ -108,7 +115,7 @@
     <span class="thumb"><img src="assets/note.png" alt=""></span>
     <span class="body">
       <span class="name">note</span>
-      <span class="desc">読みもので歯の知識をわかりやすく</span>
+      <span class="desc">歯の知識を読みもので</span>
     </span>
     <span class="chev">›</span>
   </a>
